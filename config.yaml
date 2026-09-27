@@ -1,0 +1,171 @@
+# ================= eBPF 透明代理入站（核心运行模式） =================
+listeners:
+  - name: ebpf-in
+    type: ebpf
+    mode: local           # local / shared / hybrid，默认 local
+    network: [tcp, udp]
+    udp-timeout: 300
+    dns-mode: hijack      
+    bypass-private-address: true   # 私有/组播/链路本地地址内核直连（fake-ip 段内核单独识别，不受影响）
+    bypass-rule-set:
+      - CN_IP             # 国内 IP 在内核层直接放行：省电省 CPU；副作用是国内连接不进面板连接列表、不计流量
+    tcp-splice: false     # 实验性：DIRECT 出站 TCP 内核直转（命中后不进面板统计），默认关
+    local:
+      cgroup-path: ""        # 留空 = 自动探测 Android cgroup v2 路径
+      ipv6-mode: auto        # 有 IPv6 才劫持，避免断网
+      include-package: []    # 只代理指定包名（留空 = 全部）
+      exclude-package: []    # 排除包名（银行类 App 可加这里）
+      state-capacity: 65536
+    # 热点分流：需要时把 mode 改成 hybrid，并补 shared 段
+    # （hybrid 下 shared.interface 不能为空，否则内核启动直接报错；
+    #   接口名用 adb shell ip addr 查看，常见 wlan1 / ap0 / softap0）
+    # shared:
+    #   interface: [wlan1]
+    #   ipv6-mode: "off"
+    #   include-source-cidr: []    # 只代理这些来源网段的热点客户端
+    #   exclude-source-cidr: []    # 这些来源网段直接放行（优先于 include）
+    #   state-capacity: 65536
+    #   advanced:
+    #     tc-priority: 1
+    #     data-plane: auto         # auto / socket_assign / rewrite
+
+
+mixed-port: 7890
+redir-port: 9797
+tproxy-port: 9898
+ipv6: false
+mode: Rule
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+log-level: silent       # 模板同款静音；排障时改回 info（才能看到 match 分流日志）
+bind-address: "*"
+find-process-mode: always   # 模板同款；面板显示每个连接属于哪个 App。想更省可改 strict（我们没有 PROCESS-NAME 规则）
+external-controller: 127.0.0.1:9090
+external-ui-url: "https://cdn.gh-proxy.org/https://github.com/musiyun124/zashboard/archive/refs/heads/gh-pages-no-fonts.zip"
+external-ui: dashboard    # 首次启动会自动下载面板（几 MB，走 cdn.gh-proxy.org 直连）
+secret: ""
+
+# 节点记忆
+profile: {store-selected: true, store-fake-ip: true}
+
+# 时间校准（write-to-system 需要 root，BoxProxy 正好是 root 运行）
+ntp: {enable: true, write-to-system: true, server: ntp.aliyun.com, port: 123, interval: 60}
+
+# ================= 嗅探模块 =================
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+    TLS:
+      ports: [443, 5228, 8443]   # 5228 = Google FCM
+    QUIC:                        # http3 不嗅探则域名规则匹配不到
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+# ================= 网卡模块（不用，eBPF 是入站；留模板原样，enable: false 不生效） =================
+tun:
+  enable: false
+  mtu: 1500
+  device: ikun
+  stack: gvisor
+  dns-hijack: ['any:53', 'tcp://any:53']
+  udp-timeout: 300
+  auto-route: true
+  strict-route: true
+  exclude-package:
+  auto-redirect: true
+  auto-detect-interface: false
+  include-uid: []
+
+# ================= DNS 模块（模板同款：fake-ip-filter 走规则集） =================
+# 为什么用 RULE-SET 格式而不是手写列表：mrs 规则集 mmap 加载几乎不占内存、加载快，
+# 且与分流规则共用同一份 CN 域名数据，不用维护两份。末尾 MATCH,fake-ip 是默认行为（必须有）。
+# 注意：fake-ip-filter-mode: rule 下引用的规则集名必须在 rule-providers 里存在，否则启动报错。
+dns:
+  enable: true
+  ipv6: false
+  cache-algorithm: arc
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-range6: fc00::/18
+  fake-ip-filter-mode: rule
+  fake-ip-filter:
+  - DOMAIN-SUFFIX,googleapis.cn,fake-ip
+  - RULE-SET,CN_域,real-ip
+  - RULE-SET,Fake-IP-Filter,real-ip
+  - RULE-SET,FCM_域,real-ip
+  - MATCH,fake-ip
+  default-nameserver:
+  - https://223.5.5.5/dns-query
+  - https://1.12.12.12/dns-query
+  nameserver-policy:
+    '+.googleapis.cn': 'tls://8.8.8.8'
+    "RULE-SET:CN_域,FCM_域":
+    - https://dns.yiancloud.com.cn:843/dns-query
+  proxy-server-nameserver:
+  - https://dns.yiancloud.com.cn:843/dns-query
+  nameserver:
+  - https://cloudflare-dns.com/dns-query#节点选择&h3=false   # #节点选择 = 该 DoH 走「节点选择」组出口
+
+# ================= 节点（手机 + 电脑共用：一个用户 / 一个节点 / 一条 443 入站） ================
+# >>> NODE-BLOCK >>>
+proxies:
+  - name: DMIT-EB
+    type: vless
+    server: 
+    port: 443
+    udp: true
+    network: tcp
+    uuid: 
+    flow: xtls-rprx-vision
+    packet-encoding: xudp          # 若 UDP/语音不通可删掉本行回退
+    tls: true
+    servername: 
+    client-fingerprint: chrome     # 别改成 random：权重随机且每进程只选一次，会「昨天好今天全挂」
+    reality-opts:
+      support-x25519mlkem768: true # 必填，见文件头
+      public-key: 
+      short-id: 
+# <<< NODE-BLOCK <<<
+
+# ================= 策略组（总开关 + 订阅池 + 广告拦截） =================
+proxy-groups:
+  - {name: 节点选择, icon: "https://cdn.gh-proxy.org/https://github.com/musiyun124/mihomo/raw/refs/heads/main/icon2/Main.png", type: select, proxies: [DMIT-EB, 订阅-自动, 订阅-手选, DIRECT]}
+  - {name: 订阅-自动, icon: "https://cdn.gh-proxy.org/https://github.com/musiyun124/mihomo/raw/refs/heads/main/icon2/Main.png", type: url-test, use: [qianlink], url: "http://www.gstatic.com/generate_204", interval: 300, tolerance: 100, lazy: true}
+  - {name: 订阅-手选, icon: "https://cdn.gh-proxy.org/https://github.com/musiyun124/mihomo/raw/refs/heads/main/icon2/Main.png", type: select, use: [qianlink]}
+  - {name: 广告拦截, icon: "https://cdn.gh-proxy.org/https://github.com/musiyun124/mihomo/raw/refs/heads/main/icon2/GGLJ.png", type: select, proxies: [PASS, REJECT, REJECT-DROP]}
+
+# ================= 规则集锚点 =================
+# proxy: DIRECT 是关键：下载必须直连，否则开机时代理还没起来会形成死循环
+rule-anchor:
+  IPCIDR: &IPCIDR {type: http, behavior: ipcidr, format: mrs, interval: 86400, proxy: DIRECT}
+  Domain: &Domain {type: http, behavior: domain, format: mrs, interval: 86400, proxy: DIRECT}
+
+# ================= 规则集（8 个，已预置 rules\ 目录） =================
+rule-providers:
+  Fake-IP-Filter: {<<: *Domain, path: ./rules/Fake-IP-Filter.mrs, url: "https://cdn.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/raw/refs/heads/mihomo-ruleset/fakeip-filter.mrs"}
+  CN_IP:          {<<: *IPCIDR, path: ./rules/CN_IP.mrs,          url: "https://cdn.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/raw/refs/heads/mihomo-ruleset/cnip.mrs"}
+  CN_域:          {<<: *Domain, path: ./rules/CN_域.mrs,          url: "https://cdn.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/raw/refs/heads/mihomo-ruleset/cn.mrs"}
+  CN_Lite:        {<<: *Domain, path: ./rules/CN_Lite.mrs,        url: "https://cdn.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/raw/refs/heads/mihomo-ruleset/cn-lite.mrs"}
+  FCM_域:         {<<: *Domain, path: ./rules/FCM_域.mrs,         url: "https://cdn.gh-proxy.org/https://github.com/musiyun124/mihomo/raw/refs/heads/main/rules/FCM.mrs"}
+  No-ads-all_域:  {<<: *Domain, path: ./rules/No-ads-all.mrs,     url: "https://cdn.gh-proxy.org/https://github.com/217heidai/adblockfilters/raw/refs/heads/main/rules/adblockmihomo.mrs"}
+  Private_域:     {<<: *Domain, path: ./rules/LAN.mrs,            url: "https://cdn.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/raw/refs/heads/mihomo-ruleset/private.mrs"}
+  Private_IP:     {<<: *IPCIDR, path: ./rules/Private_IP.mrs,     url: "https://cdn.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/raw/refs/heads/mihomo-ruleset/privateip.mrs"}
+
+# ================= 路由规则（与模板同顺序，去掉单节点下无意义的应用分流） =================
+rules:
+  - DOMAIN-SUFFIX,googleapis.cn,节点选择
+  - RULE-SET,Private_域,DIRECT
+  - RULE-SET,Private_IP,DIRECT,no-resolve
+  - RULE-SET,CN_Lite,DIRECT
+  - RULE-SET,CN_IP,DIRECT,no-resolve
+  - RULE-SET,No-ads-all_域,广告拦截
+  - MATCH,节点选择

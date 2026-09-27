@@ -1,0 +1,45 @@
+42   	15:22:27	warning	[TCP] dial GLOBAL 127.0.0.1:33810(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+41   	15:22:26	warning	[TCP] dial GLOBAL 127.0.0.1:47252(org.telegram.messenger, uid=10409) --> 149.154.175.51:443 error: dial tcp 149.154.175.51:443: i/o timeout
+40   	15:22:25	warning	[TCP] dial GLOBAL 127.0.0.1:37708(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+39   	15:22:24	warning	[TCP] dial GLOBAL 127.0.0.1:35944(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+38   	15:22:24	warning	[TCP] dial GLOBAL 127.0.0.1:44282(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+37   	15:22:24	warning	[TCP] dial GLOBAL 127.0.0.1:46020(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+36   	15:22:24	warning	[TCP] dial GLOBAL 127.0.0.1:48834(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+35   	15:22:23	warning	[TCP] dial GLOBAL 127.0.0.1:47060(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+34   	15:22:23	warning	[TCP] dial GLOBAL 127.0.0.1:60656(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+33   	15:22:22	warning	[TCP] dial GLOBAL 127.0.0.1:34648(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+32   	15:22:21	warning	[TCP] dial GLOBAL 127.0.0.1:54316(org.telegram.messenger, uid=10409) --> 149.154.175.51:443 error: dial tcp 149.154.175.51:443: i/o timeout
+31   	15:22:19	warning	[TCP] dial GLOBAL 127.0.0.1:48196(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+30   	15:22:19	info   	[TCP] 127.0.0.1:40434(com.boxproxy.box, uid=10407) --> cdn.gh-proxy.org:443 using GLOBAL
+29   	15:22:19	info   	[TCP] 127.0.0.1:47302(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 using GLOBAL
+28   	15:22:19	warning	[TCP] dial GLOBAL 127.0.0.1:60800(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+27   	15:22:19	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:40772  (6 similar warnings suppressed)
+26   	15:22:18	warning	[TCP] dial GLOBAL 127.0.0.1:54710(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+25   	15:22:18	warning	[TCP] dial GLOBAL 127.0.0.1:60140(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+24   	15:22:18	warning	[TCP] dial GLOBAL 127.0.0.1:41426(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+23   	15:22:18	warning	[TCP] dial GLOBAL 127.0.0.1:52468(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+22   	15:22:17	warning	[TCP] dial GLOBAL 127.0.0.1:57430(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+21   	15:22:16	warning	[TCP] dial GLOBAL 127.0.0.1:55138(org.telegram.messenger, uid=10409) --> 149.154.175.51:5222 error: dial tcp 149.154.175.51:5222: i/o timeout
+20   	15:22:16	warning	[TCP] dial GLOBAL 127.0.0.1:47874(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+19   	15:22:14	warning	[TCP] dial GLOBAL 127.0.0.1:57464(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.8.8:443: i/o timeout
+dial tcp 8.8.4.4:443: i/o timeout
+18   	15:22:14	warning	[TCP] dial GLOBAL 127.0.0.1:41536(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+17   	15:22:13	warning	[TCP] dial GLOBAL 127.0.0.1:37646(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+16   	15:22:13	warning	[TCP] dial GLOBAL 127.0.0.1:34826(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+15   	15:22:12	warning	[TCP] dial GLOBAL 127.0.0.1:36756(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+14   	15:22:12	warning	[TCP] dial GLOBAL 127.0.0.1:58552(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+13   	15:22:11	warning	[TCP] dial GLOBAL 127.0.0.1:58324(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+12   	15:22:11	warning	[TCP] dial GLOBAL 127.0.0.1:43810(org.telegram.messenger, uid=10409) --> 149.154.175.51:443 error: dial tcp 149.154.175.51:443: i/o timeout
+11   	15:22:11	warning	[TCP] dial GLOBAL 127.0.0.1:58326(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+10   	15:22:11	warning	[TCP] dial GLOBAL 127.0.0.1:60604(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+9    	15:22:09	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:20342  (2 similar warnings suppressed)
+8    	15:22:08	warning	[TCP] dial GLOBAL 127.0.0.1:49622(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+7    	15:22:07	warning	[TCP] dial GLOBAL 127.0.0.1:48472(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+6    	15:22:07	warning	[TCP] dial GLOBAL 127.0.0.1:54930(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+5    	15:22:07	warning	[TCP] dial GLOBAL 127.0.0.1:43390(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+4    	15:22:07	warning	[TCP] dial GLOBAL 127.0.0.1:52972(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+3    	15:22:06	warning	[TCP] dial GLOBAL 127.0.0.1:49636(org.telegram.messenger, uid=10409) --> 149.154.175.51:443 error: dial tcp 149.154.175.51:443: i/o timeout
+2    	15:22:06	warning	[TCP] dial GLOBAL 127.0.0.1:46122(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+1    	15:22:06	warning	[TCP] dial GLOBAL 127.0.0.1:46872(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout

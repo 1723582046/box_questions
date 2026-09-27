@@ -1,0 +1,54 @@
+54   	00:58:03	info   	[TCP] 127.0.0.1:39414(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+53   	00:58:03	info   	[TCP] 127.0.0.1:46972(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 match Match using 节点选择[DMIT-EB]
+52   	00:57:32	info   	[UDP] 127.0.0.1:60962(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 match Match using 节点选择[DMIT-EB]
+51   	00:57:26	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:63190  (18 similar warnings suppressed)
+50   	00:57:17	info   	[UDP] 127.0.0.1:60962(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 match Match using 节点选择[DMIT-EB]
+49   	00:57:16	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:3821  (1 similar warnings suppressed)
+48   	00:57:11	info   	[UDP] 127.0.0.1:60962(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 match Match using 节点选择[DMIT-EB]
+47   	00:57:11	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:18056  (12 similar warnings suppressed)
+46   	00:57:11	info   	[TCP] 127.0.0.1:50746(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+45   	00:57:11	info   	[TCP] 127.0.0.1:38988(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+44   	00:57:11	info   	[TCP] 127.0.0.1:40972(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+43   	00:57:11	info   	[TCP] 127.0.0.1:47394(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 match Match using 节点选择[DMIT-EB]
+42   	00:57:11	info   	[TCP] 127.0.0.1:38068(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+41   	00:57:11	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:38487  (12 similar warnings suppressed)
+40   	00:57:11	info   	[TCP] 127.0.0.1:57330(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+39   	00:57:11	info   	[TCP] 127.0.0.1:46406(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+38   	00:57:11	info   	[TCP] 127.0.0.1:49804(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+37   	00:57:11	info   	[TCP] 127.0.0.1:44896(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+36   	00:57:11	info   	[TCP] 127.0.0.1:42822(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+35   	00:57:11	info   	[TCP] 127.0.0.1:54170(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+34   	00:57:11	info   	[TCP] 127.0.0.1:50270(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+33   	00:57:11	info   	[TCP] 127.0.0.1:41206(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+32   	00:57:11	info   	[TCP] 127.0.0.1:46902(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+31   	00:57:11	info   	[TCP] 127.0.0.1:34084(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+30   	00:57:11	info   	[TCP] 127.0.0.1:51818(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+29   	00:57:11	info   	[TCP] 127.0.0.1:42264(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+28   	00:57:11	info   	[TCP] 127.0.0.1:59514(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+27   	00:57:11	info   	[TCP] 127.0.0.1:60046(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+26   	00:57:11	info   	[TCP] 127.0.0.1:52084(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+25   	00:57:11	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:47825  (1 similar warnings suppressed)
+24   	00:57:11	info   	[TCP] 127.0.0.1:36034(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+23   	00:57:01	info   	[TCP] 127.0.0.1:52940(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+22   	00:56:45	info   	[TCP] 127.0.0.1:35896(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+21   	00:56:44	info   	[TCP] 127.0.0.1:44988(org.telegram.messenger, uid=10409) --> 149.154.167.151:443 match Match using 节点选择[DMIT-EB]
+20   	00:56:44	info   	[TCP] 127.0.0.1:35064(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+19   	00:56:44	info   	[TCP] 127.0.0.1:33364(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 match Match using 节点选择[DMIT-EB]
+18   	00:56:44	info   	[TCP] 127.0.0.1:49724(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+17   	00:56:43	info   	[TCP] 127.0.0.1:58890(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+16   	00:56:42	info   	[TCP] 127.0.0.1:49396(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 match Match using 节点选择[DMIT-EB]
+15   	00:56:42	info   	[TCP] 127.0.0.1:46262(org.telegram.messenger, uid=10409) --> www.google.com:443 match Match using 节点选择[DMIT-EB]
+14   	00:56:36	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:65226  (12 similar warnings suppressed)
+13   	00:56:32	info   	[UDP] 127.0.0.1:46152 --> pool.ntp.org:123 match Match using 节点选择[DMIT-EB]
+12   	00:56:32	info   	[UDP] 127.0.0.1:33868 --> pool.ntp.org:123 match Match using 节点选择[DMIT-EB]
+11   	00:56:31	info   	[UDP] 127.0.0.1:45455 --> pool.ntp.org:123 match Match using 节点选择[DMIT-EB]
+10   	00:56:26	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:14796  (21 similar warnings suppressed)
+9    	00:56:17	info   	[UDP] 127.0.0.1:59928 --> pool.ntp.org:123 match Match using 节点选择[DMIT-EB]
+8    	00:56:17	info   	[UDP] 127.0.0.1:46454 --> pool.ntp.org:123 match Match using 节点选择[DMIT-EB]
+7    	00:56:16	info   	[UDP] 127.0.0.1:39031 --> pool.ntp.org:123 match Match using 节点选择[DMIT-EB]
+6    	00:56:16	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:48019  (4 similar warnings suppressed)
+5    	00:56:06	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:42860  (9 similar warnings suppressed)
+4    	00:56:02	info   	[TCP] 127.0.0.1:35400(com.boxproxy.box, uid=10407) --> cdn.gh-proxy.org:443 match Match using 节点选择[DMIT-EB]
+3    	00:55:56	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:34328  (14 similar warnings suppressed)
+2    	00:55:46	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:36408  (19 similar warnings suppressed)
+1    	00:55:36	warning	[EBPF] missing UDP DNS binding for  127.0.0.1:10855  (1 similar warnings suppressed)
