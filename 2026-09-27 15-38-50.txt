@@ -1,0 +1,452 @@
+229  	15:38:49	warning	[TCP] dial GLOBAL 127.0.0.1:37006(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+228  	15:38:49	warning	[TCP] dial GLOBAL 127.0.0.1:58536(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+227  	15:38:49	warning	[TCP] dial GLOBAL 127.0.0.1:45398(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+226  	15:38:46	warning	[TCP] dial GLOBAL 127.0.0.1:58070(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+225  	15:38:46	warning	[TCP] dial GLOBAL 127.0.0.1:53362(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+224  	15:38:46	warning	[TCP] dial GLOBAL 127.0.0.1:60672(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+223  	15:38:46	warning	[TCP] dial GLOBAL 127.0.0.1:43614(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+222  	15:38:44	warning	[TCP] dial GLOBAL 127.0.0.1:55610(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+221  	15:38:44	warning	[TCP] dial GLOBAL 127.0.0.1:57026(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+220  	15:38:44	warning	[TCP] dial GLOBAL 127.0.0.1:39958(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+219  	15:38:40	warning	[TCP] dial GLOBAL 127.0.0.1:47562(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+218  	15:38:40	warning	[TCP] dial GLOBAL 127.0.0.1:57982(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+217  	15:38:40	warning	[TCP] dial GLOBAL 127.0.0.1:38182(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+216  	15:38:40	warning	[TCP] dial GLOBAL 127.0.0.1:45262(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+215  	15:38:40	warning	[TCP] dial GLOBAL 127.0.0.1:44618(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+214  	15:38:39	warning	[TCP] dial GLOBAL 127.0.0.1:54026(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+213  	15:38:39	warning	[TCP] dial GLOBAL 127.0.0.1:60332(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+212  	15:38:39	warning	[TCP] dial GLOBAL 127.0.0.1:55566(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+211  	15:38:35	warning	[TCP] dial GLOBAL 127.0.0.1:52404(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+210  	15:38:35	warning	[TCP] dial GLOBAL 127.0.0.1:45088(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+209  	15:38:35	warning	[TCP] dial GLOBAL 127.0.0.1:43094(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+208  	15:38:35	warning	[TCP] dial GLOBAL 127.0.0.1:37290(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+207  	15:38:34	warning	[TCP] dial GLOBAL 127.0.0.1:47136(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+206  	15:38:34	warning	[TCP] dial GLOBAL 127.0.0.1:55160(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+205  	15:38:34	warning	[TCP] dial GLOBAL 127.0.0.1:41218(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+204  	15:38:31	info   	[TCP] 127.0.0.1:56828(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+203  	15:38:31	warning	[TCP] dial GLOBAL 127.0.0.1:54644(com.android.vending, uid=10097) --> android.clients.google.com:443 error: dial tcp 142.251.34.78:443: i/o timeout
+dial tcp 142.251.41.14:443: i/o timeout
+dial tcp 142.251.214.110:443: i/o timeout
+dial tcp 142.251.215.174:443: i/o timeout
+dial tcp 142.251.45.14:443: i/o timeout
+dial tcp 142.251.218.14:443: i/o timeout
+dial tcp 142.251.210.142:443: i/o timeout
+dial tcp 142.251.35.78:443: i/o timeout
+dial tcp 142.251.32.174:443: i/o timeout
+dial tcp 142.251.215.78:443: i/o timeout
+dial tcp 142.251.215.238:443: i/o timeout
+dial tcp 142.251.215.206:443: i/o timeout
+dial tcp 142.251.40.110:443: i/o timeout
+202  	15:38:30	warning	[TCP] dial GLOBAL 127.0.0.1:58898(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+201  	15:38:29	warning	[TCP] dial GLOBAL 127.0.0.1:33394(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+200  	15:38:29	warning	[TCP] dial GLOBAL 127.0.0.1:43910(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+199  	15:38:29	warning	[TCP] dial GLOBAL 127.0.0.1:37666(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+198  	15:38:29	warning	[TCP] dial GLOBAL 127.0.0.1:47844(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+197  	15:38:29	warning	[TCP] dial GLOBAL 127.0.0.1:42504(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+196  	15:38:29	warning	[TCP] dial GLOBAL 127.0.0.1:43712(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+195  	15:38:29	info   	[TCP] 127.0.0.1:46668(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 using GLOBAL
+194  	15:38:28	warning	[TCP] dial GLOBAL 127.0.0.1:53342(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+193  	15:38:26	info   	[UDP] 127.0.0.1:59034(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+192  	15:38:24	warning	[TCP] dial GLOBAL 127.0.0.1:50944(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+191  	15:38:24	warning	[TCP] dial GLOBAL 127.0.0.1:34656(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+190  	15:38:24	warning	[TCP] dial GLOBAL 127.0.0.1:37096(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+189  	15:38:24	warning	[TCP] dial GLOBAL 127.0.0.1:34688(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+188  	15:38:24	warning	[TCP] dial GLOBAL 127.0.0.1:46576(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+187  	15:38:23	warning	[TCP] dial GLOBAL 127.0.0.1:33520(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+186  	15:38:23	warning	[TCP] dial GLOBAL 127.0.0.1:49522(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+185  	15:38:20	warning	[TCP] dial GLOBAL 127.0.0.1:39206(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+184  	15:38:19	warning	[TCP] dial GLOBAL 127.0.0.1:37076(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+183  	15:38:18	warning	[TCP] dial GLOBAL 127.0.0.1:50264(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+182  	15:38:18	warning	[TCP] dial GLOBAL 127.0.0.1:48584(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+181  	15:38:18	warning	[TCP] dial GLOBAL 127.0.0.1:58476(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+180  	15:38:18	warning	[TCP] dial GLOBAL 127.0.0.1:33360(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+179  	15:38:18	warning	[TCP] dial GLOBAL 127.0.0.1:41268(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+178  	15:38:18	warning	[TCP] dial GLOBAL 127.0.0.1:35808(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+177  	15:38:16	info   	[TCP] 127.0.0.1:45300(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+176  	15:38:14	warning	[TCP] dial GLOBAL 127.0.0.1:58244(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+175  	15:38:13	warning	[TCP] dial GLOBAL 127.0.0.1:55118(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+174  	15:38:13	warning	[TCP] dial GLOBAL 127.0.0.1:49924(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+173  	15:38:13	warning	[TCP] dial GLOBAL 127.0.0.1:41498(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+172  	15:38:13	warning	[TCP] dial GLOBAL 127.0.0.1:56310(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+171  	15:38:13	warning	[TCP] dial GLOBAL 127.0.0.1:46964(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+170  	15:38:09	warning	[TCP] dial GLOBAL 127.0.0.1:38466(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+169  	15:38:08	warning	[TCP] dial GLOBAL 127.0.0.1:57320(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+168  	15:38:08	warning	[TCP] dial GLOBAL 127.0.0.1:35188(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+167  	15:38:08	warning	[TCP] dial GLOBAL 127.0.0.1:59622(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+166  	15:38:08	warning	[TCP] dial GLOBAL 127.0.0.1:43972(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+165  	15:38:08	warning	[TCP] dial GLOBAL 127.0.0.1:51238(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+164  	15:38:07	warning	[TCP] dial GLOBAL 127.0.0.1:59186(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+163  	15:38:05	info   	[TCP] 127.0.0.1:46356(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+162  	15:38:05	info   	[UDP] 127.0.0.1:49910(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+161  	15:38:03	warning	[TCP] dial GLOBAL 127.0.0.1:39370(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+160  	15:38:03	warning	[TCP] dial GLOBAL 127.0.0.1:55000(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+159  	15:38:02	warning	[TCP] dial GLOBAL 127.0.0.1:41772(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+158  	15:38:02	warning	[TCP] dial GLOBAL 127.0.0.1:57390(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+157  	15:38:02	warning	[TCP] dial GLOBAL 127.0.0.1:50574(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+156  	15:38:02	warning	[TCP] dial GLOBAL 127.0.0.1:56920(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+155  	15:37:58	warning	[TCP] dial GLOBAL 127.0.0.1:53866(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+154  	15:37:58	warning	[TCP] dial GLOBAL 127.0.0.1:40164(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+153  	15:37:57	warning	[TCP] dial GLOBAL 127.0.0.1:39556(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 172.64.41.4:443: i/o timeout
+dial tcp 162.159.61.4:443: i/o timeout
+152  	15:37:57	warning	[TCP] dial GLOBAL 127.0.0.1:54042(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+151  	15:37:57	warning	[TCP] dial GLOBAL 127.0.0.1:48688(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+150  	15:37:57	warning	[TCP] dial GLOBAL 127.0.0.1:48068(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+149  	15:37:57	warning	[TCP] dial GLOBAL 127.0.0.1:60150(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+148  	15:37:55	info   	[TCP] 127.0.0.1:57904(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+147  	15:37:53	warning	[TCP] dial GLOBAL 127.0.0.1:51504(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+146  	15:37:52	warning	[TCP] dial GLOBAL 127.0.0.1:57762(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+145  	15:37:51	warning	[TCP] dial GLOBAL 127.0.0.1:37446(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+144  	15:37:51	warning	[TCP] dial GLOBAL 127.0.0.1:39734(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+143  	15:37:51	warning	[TCP] dial GLOBAL 127.0.0.1:42292(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+142  	15:37:51	warning	[TCP] dial GLOBAL 127.0.0.1:35840(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+141  	15:37:48	warning	[TCP] dial GLOBAL 127.0.0.1:39106(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+140  	15:37:48	warning	[TCP] dial GLOBAL 127.0.0.1:47050(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+139  	15:37:47	warning	[TCP] dial GLOBAL 127.0.0.1:45240(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+138  	15:37:47	warning	[TCP] dial GLOBAL 127.0.0.1:41716(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+137  	15:37:46	warning	[TCP] dial GLOBAL 127.0.0.1:39580(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+136  	15:37:46	warning	[TCP] dial GLOBAL 127.0.0.1:40322(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+135  	15:37:46	warning	[TCP] dial GLOBAL 127.0.0.1:59802(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+134  	15:37:46	warning	[TCP] dial GLOBAL 127.0.0.1:43512(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+133  	15:37:44	info   	[TCP] 127.0.0.1:48874(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+132  	15:37:44	info   	[UDP] 127.0.0.1:57844(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+131  	15:37:43	warning	[TCP] dial GLOBAL 127.0.0.1:45856(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+130  	15:37:42	warning	[TCP] dial GLOBAL 127.0.0.1:54514(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+129  	15:37:40	warning	[TCP] dial GLOBAL 127.0.0.1:41364(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+128  	15:37:40	warning	[TCP] dial GLOBAL 127.0.0.1:40786(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+127  	15:37:40	warning	[TCP] dial GLOBAL 127.0.0.1:37412(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+126  	15:37:40	warning	[TCP] dial GLOBAL 127.0.0.1:46110(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+125  	15:37:39	warning	[TCP] dial GLOBAL 127.0.0.1:46846(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+124  	15:37:38	warning	[TCP] dial GLOBAL 127.0.0.1:43766(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+123  	15:37:37	warning	[TCP] dial GLOBAL 127.0.0.1:52220(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+122  	15:37:35	warning	[TCP] dial GLOBAL 127.0.0.1:39414(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+121  	15:37:35	warning	[TCP] dial GLOBAL 127.0.0.1:55686(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+120  	15:37:35	warning	[TCP] dial GLOBAL 127.0.0.1:49330(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+119  	15:37:35	warning	[TCP] dial GLOBAL 127.0.0.1:41192(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+118  	15:37:33	warning	[TCP] dial GLOBAL 127.0.0.1:39052(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+117  	15:37:32	warning	[TCP] dial GLOBAL 127.0.0.1:51238(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+116  	15:37:32	warning	[TCP] dial GLOBAL 127.0.0.1:34246(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+115  	15:37:30	warning	[TCP] dial GLOBAL 127.0.0.1:34560(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+114  	15:37:30	warning	[TCP] dial GLOBAL 127.0.0.1:37474(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+113  	15:37:30	warning	[TCP] dial GLOBAL 127.0.0.1:43290(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+112  	15:37:30	warning	[TCP] dial GLOBAL 127.0.0.1:46498(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+111  	15:37:30	warning	[TCP] dial GLOBAL 127.0.0.1:35566(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+110  	15:37:28	warning	[TCP] dial GLOBAL 127.0.0.1:40032(com.android.vending, uid=10097) --> connectivitycheck.gstatic.com:443 error: dial tcp 142.251.215.195:443: i/o timeout
+109  	15:37:27	warning	[TCP] dial GLOBAL 127.0.0.1:54170(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+108  	15:37:27	warning	[TCP] dial GLOBAL 127.0.0.1:49594(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 172.64.41.4:443: i/o timeout
+dial tcp 162.159.61.4:443: i/o timeout
+107  	15:37:24	warning	[TCP] dial GLOBAL 127.0.0.1:49776(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+106  	15:37:24	warning	[TCP] dial GLOBAL 127.0.0.1:45534(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+105  	15:37:24	warning	[TCP] dial GLOBAL 127.0.0.1:44152(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+104  	15:37:24	warning	[TCP] dial GLOBAL 127.0.0.1:50062(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+103  	15:37:23	warning	[TCP] dial GLOBAL 127.0.0.1:40716(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+102  	15:37:22	warning	[TCP] dial GLOBAL 127.0.0.1:33776(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+101  	15:37:22	warning	[TCP] dial GLOBAL 127.0.0.1:60808(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+100  	15:37:19	warning	[TCP] dial GLOBAL 127.0.0.1:50650(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+99   	15:37:19	warning	[TCP] dial GLOBAL 127.0.0.1:41652(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+98   	15:37:19	warning	[TCP] dial GLOBAL 127.0.0.1:50290(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+97   	15:37:19	warning	[TCP] dial GLOBAL 127.0.0.1:55066(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+96   	15:37:18	warning	[TCP] dial GLOBAL 127.0.0.1:54698(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+95   	15:37:17	warning	[TCP] dial GLOBAL 127.0.0.1:41008(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+94   	15:37:17	warning	[TCP] dial GLOBAL 127.0.0.1:48648(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+93   	15:37:15	warning	[TCP] dial GLOBAL 127.0.0.1:56396(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+92   	15:37:15	info   	[TCP] 127.0.0.1:58246(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+91   	15:37:14	info   	[UDP] 127.0.0.1:39558(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+90   	15:37:13	warning	[TCP] dial GLOBAL 127.0.0.1:57340(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+89   	15:37:13	warning	[TCP] dial GLOBAL 127.0.0.1:47130(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+88   	15:37:13	warning	[TCP] dial GLOBAL 127.0.0.1:51462(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+87   	15:37:13	warning	[TCP] dial GLOBAL 127.0.0.1:52710(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+86   	15:37:13	warning	[TCP] dial GLOBAL 127.0.0.1:34258(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+85   	15:37:13	warning	[TCP] dial GLOBAL 127.0.0.1:49892(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+84   	15:37:12	warning	[TCP] dial GLOBAL 127.0.0.1:58044(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+83   	15:37:10	warning	[TCP] dial GLOBAL 127.0.0.1:46350(com.google.android.gms, uid=10118) --> ssl.google-analytics.com:443 error: dial tcp 142.251.40.104:443: i/o timeout
+82   	15:37:08	warning	[TCP] dial GLOBAL 127.0.0.1:36592(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+81   	15:37:08	warning	[TCP] dial GLOBAL 127.0.0.1:33300(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+80   	15:37:08	warning	[TCP] dial GLOBAL 127.0.0.1:35630(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+79   	15:37:08	warning	[TCP] dial GLOBAL 127.0.0.1:55276(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+78   	15:37:08	warning	[TCP] dial GLOBAL 127.0.0.1:52270(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+77   	15:37:08	warning	[TCP] dial GLOBAL 127.0.0.1:53300(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+76   	15:37:06	warning	[TCP] dial GLOBAL 127.0.0.1:52660(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+75   	15:37:06	warning	[TCP] dial GLOBAL 127.0.0.1:40776(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+74   	15:37:04	warning	[TCP] dial GLOBAL 127.0.0.1:55436(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+73   	15:37:03	warning	[TCP] dial GLOBAL 127.0.0.1:39282(com.android.vending, uid=10097) --> connectivitycheck.gstatic.com:443 error: dial tcp 142.251.215.195:443: i/o timeout
+72   	15:37:03	warning	[TCP] dial GLOBAL 127.0.0.1:38864(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+71   	15:37:02	warning	[TCP] dial GLOBAL 127.0.0.1:44380(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+70   	15:37:02	warning	[TCP] dial GLOBAL 127.0.0.1:38664(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+69   	15:37:02	warning	[TCP] dial GLOBAL 127.0.0.1:35020(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+68   	15:37:02	warning	[TCP] dial GLOBAL 127.0.0.1:51692(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+67   	15:37:01	warning	[TCP] dial GLOBAL 127.0.0.1:59236(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+66   	15:37:01	info   	[TCP] 127.0.0.1:46098(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 using GLOBAL
+65   	15:37:01	warning	[TCP] dial GLOBAL 127.0.0.1:40520(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 162.159.61.4:443: i/o timeout
+dial tcp 172.64.41.4:443: i/o timeout
+64   	15:36:59	warning	[TCP] dial GLOBAL 127.0.0.1:59506(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+63   	15:36:58	warning	[TCP] dial GLOBAL 127.0.0.1:58290(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+62   	15:36:58	warning	[TCP] dial GLOBAL 127.0.0.1:58390(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+61   	15:36:57	warning	[TCP] dial GLOBAL 127.0.0.1:55030(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+60   	15:36:57	warning	[TCP] dial GLOBAL 127.0.0.1:43384(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+59   	15:36:57	warning	[TCP] dial GLOBAL 127.0.0.1:46414(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+58   	15:36:57	warning	[TCP] dial GLOBAL 127.0.0.1:53916(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+57   	15:36:56	warning	[TCP] dial GLOBAL 127.0.0.1:40148(org.telegram.messenger, uid=10409) --> 91.108.56.122:5222 error: dial tcp 91.108.56.122:5222: i/o timeout
+56   	15:36:56	warning	[TCP] dial GLOBAL 127.0.0.1:45572(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.8.8:443: i/o timeout
+dial tcp 8.8.4.4:443: i/o timeout
+55   	15:36:54	warning	[TCP] dial GLOBAL 127.0.0.1:60554(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+54   	15:36:53	warning	[TCP] dial GLOBAL 127.0.0.1:36512(com.google.android.gms, uid=10118) --> chromesyncentities-pa.googleapis.com:443 error: dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+53   	15:36:53	warning	[TCP] dial GLOBAL 127.0.0.1:49162(com.google.android.gms, uid=10118) --> chromesyncentities-pa.googleapis.com:443 error: dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+52   	15:36:53	warning	[TCP] dial GLOBAL 127.0.0.1:40850(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+51   	15:36:53	warning	[TCP] dial GLOBAL 127.0.0.1:43864(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+50   	15:36:52	warning	[TCP] dial GLOBAL 127.0.0.1:40684(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+49   	15:36:52	warning	[TCP] dial GLOBAL 127.0.0.1:34670(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+48   	15:36:52	warning	[TCP] dial GLOBAL 127.0.0.1:60850(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+47   	15:36:52	warning	[TCP] dial GLOBAL 127.0.0.1:56632(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+46   	15:36:51	warning	[TCP] dial GLOBAL 127.0.0.1:59596(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+45   	15:36:51	warning	[TCP] dial GLOBAL 127.0.0.1:60972(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.8.8:443: i/o timeout
+dial tcp 8.8.4.4:443: i/o timeout
+44   	15:36:49	warning	[TCP] dial GLOBAL 127.0.0.1:53582(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+43   	15:36:48	warning	[TCP] dial GLOBAL 127.0.0.1:51148(com.google.android.gms, uid=10118) --> chromesyncentities-pa.googleapis.com:443 error: dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+42   	15:36:48	warning	[TCP] dial GLOBAL 127.0.0.1:56496(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.45.14:443: i/o timeout
+41   	15:36:48	warning	[TCP] dial GLOBAL 127.0.0.1:33560(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+40   	15:36:47	warning	[TCP] dial GLOBAL 127.0.0.1:44390(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+39   	15:36:46	warning	[TCP] dial GLOBAL 127.0.0.1:36900(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+38   	15:36:46	warning	[TCP] dial GLOBAL 127.0.0.1:59352(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+37   	15:36:46	warning	[TCP] dial GLOBAL 127.0.0.1:33230(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+36   	15:36:46	warning	[TCP] dial GLOBAL 127.0.0.1:52378(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+35   	15:36:46	warning	[TCP] dial GLOBAL 127.0.0.1:52896(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+34   	15:36:45	warning	[TCP] dial GLOBAL 127.0.0.1:46206(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 172.64.41.4:443: i/o timeout
+dial tcp 162.159.61.4:443: i/o timeout
+33   	15:36:44	info   	[TCP] 127.0.0.1:50322(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+32   	15:36:44	info   	[UDP] 127.0.0.1:52717(com.android.vending, uid=10097) --> android.clients.google.com:443 using GLOBAL
+31   	15:36:44	warning	[TCP] dial GLOBAL 127.0.0.1:40700(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+30   	15:36:43	info   	[UDP] 127.0.0.1:42628(com.oplus.framework.network.drs, uid=10114) --> pool.ntp.org:123 using GLOBAL
+29   	15:36:43	warning	[TCP] dial GLOBAL 127.0.0.1:54178(com.android.vending, uid=10097) --> play-fe.googleapis.com:443 error: dial tcp 142.251.215.174:443: i/o timeout
+28   	15:36:43	warning	[TCP] dial GLOBAL 127.0.0.1:46886(com.android.vending, uid=10097) --> play-lh.googleusercontent.com:443 error: dial tcp 142.251.45.22:443: i/o timeout
+27   	15:36:43	warning	[TCP] dial GLOBAL 127.0.0.1:33302(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+26   	15:36:41	warning	[TCP] dial GLOBAL 127.0.0.1:55050(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+25   	15:36:41	warning	[TCP] dial GLOBAL 127.0.0.1:49608(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+24   	15:36:41	warning	[TCP] dial GLOBAL 127.0.0.1:36908(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+23   	15:36:41	warning	[TCP] dial GLOBAL 127.0.0.1:58684(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+22   	15:36:41	warning	[TCP] dial GLOBAL 127.0.0.1:37052(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+21   	15:36:40	warning	[TCP] dial GLOBAL 127.0.0.1:40150(org.telegram.messenger, uid=10409) --> mozilla.cloudflare-dns.com:443 error: dial tcp 172.64.41.4:443: i/o timeout
+dial tcp 162.159.61.4:443: i/o timeout
+20   	15:36:39	warning	[TCP] dial GLOBAL 127.0.0.1:35294(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+19   	15:36:38	warning	[TCP] dial GLOBAL 127.0.0.1:45142(com.android.vending, uid=10097) --> play-lh.googleusercontent.com:443 error: dial tcp 142.251.215.246:443: i/o timeout
+18   	15:36:38	warning	[TCP] dial GLOBAL 127.0.0.1:33938(com.android.vending, uid=10097) --> connectivitycheck.gstatic.com:443 error: dial tcp 142.251.32.163:443: i/o timeout
+17   	15:36:38	warning	[TCP] dial GLOBAL 127.0.0.1:49940(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+16   	15:36:36	warning	[TCP] dial GLOBAL 127.0.0.1:41828(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+15   	15:36:35	warning	[TCP] dial GLOBAL 127.0.0.1:51678(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+14   	15:36:35	warning	[TCP] dial GLOBAL 127.0.0.1:35208(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+13   	15:36:35	warning	[TCP] dial GLOBAL 127.0.0.1:32836(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+12   	15:36:35	warning	[TCP] dial GLOBAL 127.0.0.1:57138(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+11   	15:36:35	warning	[TCP] dial GLOBAL 127.0.0.1:36708(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.8.8:443: i/o timeout
+dial tcp 8.8.4.4:443: i/o timeout
+10   	15:36:34	warning	[TCP] dial GLOBAL 127.0.0.1:52000(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+9    	15:36:33	warning	[TCP] dial GLOBAL 127.0.0.1:43272(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+8    	15:36:30	warning	[TCP] dial GLOBAL 127.0.0.1:39130(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+7    	15:36:30	warning	[TCP] dial GLOBAL 127.0.0.1:44310(org.telegram.messenger, uid=10409) --> dns.google.com:443 error: dial tcp 8.8.4.4:443: i/o timeout
+dial tcp 8.8.8.8:443: i/o timeout
+6    	15:36:30	warning	[TCP] dial GLOBAL 127.0.0.1:38476(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+5    	15:36:30	warning	[TCP] dial GLOBAL 127.0.0.1:49362(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+4    	15:36:30	warning	[TCP] dial GLOBAL 127.0.0.1:60476(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+3    	15:36:30	warning	[TCP] dial GLOBAL 127.0.0.1:49400(org.telegram.messenger, uid=10409) --> 91.108.56.122:443 error: dial tcp 91.108.56.122:443: i/o timeout
+2    	15:36:29	warning	[TCP] dial GLOBAL 127.0.0.1:34492(com.android.vending, uid=10097) --> play.googleapis.com:443 error: dial tcp 172.217.116.4:443: i/o timeout
+dial tcp 172.217.115.4:443: i/o timeout
+dial tcp 172.217.114.4:443: i/o timeout
+dial tcp 172.217.112.4:443: i/o timeout
+dial tcp 172.217.117.4:443: i/o timeout
+dial tcp 172.217.113.4:443: i/o timeout
+dial tcp 172.217.118.4:443: i/o timeout
+dial tcp 172.217.119.4:443: i/o timeout
+1    	15:36:29	info   	[TCP] 127.0.0.1:52354(com.boxproxy.box, uid=10407) --> cdn.gh-proxy.org:443 using GLOBAL
